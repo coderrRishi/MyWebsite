@@ -1,1 +1,181 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White */
+    color: var(--secondary-color);
+
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#achievements ul{
+  display: flex;
+  text-align: justify;
+  position: relative;
+}
+#achievements {
+  position: relative
+}
+.container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  -webkit-mask-image: url(#mask);
+  mask-image: url(#mask);
+}
+.project {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.project a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Additional CSS for animation */
+        .animated {
+            animation-duration: 1s;
+        }
+
+        .animate__animated {
+            animation-fill-mode: both;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translate3d(0, -100%, 0);
+            }
+
+            to {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        .animate__fadeInDown {
+            animation-name: fadeInDown;
+        }
+/* Professional Color Palette */
+:root {
+    --primary-color: #007bff; /* Blue */
+    --secondary-color: #333333; /* Dark Gray */
+    --accent-color: #ff6f61; /* Coral */
+}
+
+/* Body and Text */
+body {
+    background-color: #ffffff; /* White */
+    color: var(--secondary-color);
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: #ffffff; /* White */
+}
+
+/* Navbar Links */
+.navbar-links a {
+    color: #ffffff; /* White */
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+/* Buttons */
+.button {
+    background-color: var(--primary-color);
+    color: #ffffff; /* White */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--accent-color);
+}
+
+/* Project Cards */
+.project {
+    background-color: #f9f9f9; /* Light Gray */
+    border: 1px solid #e6e6e6; /* Lighter Gray */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer,#contact{
+  background-color: bisque;
+  margin: 0px
+    }
